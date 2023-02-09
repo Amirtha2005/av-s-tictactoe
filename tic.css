@@ -1,0 +1,66 @@
+<style>
+    /* CSS Code */
+    /* Heading */
+    h1 {
+        color: #65e6f7;
+        font-size: 45px;
+    }
+    body{
+        background: white;
+    }
+ 
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 10px solid hsl(152, 58%, 62%);
+        border-radius: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid #c57fee;
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        background-color: blueviolet;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        color: #57f157;
+        font-size: 20px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+             
+        color: #e70a0ae7;
+        font-size: 30px;
+    }
+</style>
+Filename: tic.js 
+
+// Function called 
